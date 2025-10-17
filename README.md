@@ -29,19 +29,19 @@ For cloning and managing the workshop code repository, you will need the Git com
 git --version
 ```
 
-We don't mind which method you use to interact with Git, but popular options include the terminal, [GitHub Desktop](https://desktop.github.com/download/), or directly within VSCode.
+We don't mind which method you use to interact with Git, but popular options include the terminal, [GitHub Desktop](https://desktop.github.com/download/), or directly within Visual Studio Code.
 
 ## 3. Code Editor
 
-While you can use any editor, we highly recommend using [VSCode](https://code.visualstudio.com/) due to its excellent integration capabilities.
+While you can use any editor, we highly recommend using [Visual Studio Code](https://code.visualstudio.com/) due to its excellent integration capabilities.
 
-### Recommended VSCode Extensions:
+### Recommended Visual Studio Code Extensions
 
-- **Docker:** Installs quickly and provides great command and container management directly within the editor: [VSCode Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
+- **Docker:** Installs quickly and provides great command and container management directly within the editor: [Visual Studio Code Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Visual Studio Code-docker).
 
 ### Windows Users: WSL Extension
 
-If you are running Windows and using WSL2 (as recommended above), we also recommend installing the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension for a seamless development experience inside the Linux environment.
+If you are running Windows and using WSL2 (as recommended above), we also recommend installing the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-Visual Studio Code-remote.remote-wsl) extension for a seamless development experience inside the Linux environment.
 
 ## 4. GitHub Account
 
