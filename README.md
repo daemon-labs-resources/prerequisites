@@ -37,11 +37,11 @@ While you can use any editor, we highly recommend using [Visual Studio Code](htt
 
 ### Recommended Visual Studio Code Extensions
 
-- **Docker:** Installs quickly and provides great command and container management directly within the editor: [Visual Studio Code Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Visual Studio Code-docker).
+- **Docker:** Installs quickly and provides great command and container management directly within the editor: [Visual Studio Code Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
 
 ### Windows Users: WSL Extension
 
-If you are running Windows and using WSL2 (as recommended above), we also recommend installing the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-Visual Studio Code-remote.remote-wsl) extension for a seamless development experience inside the Linux environment.
+If you are running Windows and using WSL2 (as recommended above), we also recommend installing the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension for a seamless development experience inside the Linux environment.
 
 ## 4. GitHub Account
 
