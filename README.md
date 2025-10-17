@@ -4,7 +4,7 @@ We try to keep prerequisites to a minimum, but please run through these items be
 
 ## 1. Docker Environment
 
-Please ensure you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed and running. 
+Please ensure you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed and running.
 This provides the Docker engine required for our exercises.
 
 To confirm successful installation, run the following command in your terminal:
@@ -37,7 +37,7 @@ While you can use any editor, we highly recommend using [VSCode](https://code.vi
 
 ### Recommended VSCode Extensions:
 
-* **Docker:** Installs quickly and provides great command and container management directly within the editor: [VSCode Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
+- **Docker:** Installs quickly and provides great command and container management directly within the editor: [VSCode Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
 
 ### Windows Users: WSL Extension
 
@@ -45,5 +45,5 @@ If you are running Windows and using WSL2 (as recommended above), we also recomm
 
 ## 4. GitHub Account
 
-If you don't already have one, please create an account and sign in here: [GitHub Signup](https://github.com/signup). 
+If you don't already have one, please create an account and sign in here: [GitHub Signup](https://github.com/signup).
 We will be cloning repositories from GitHub during the workshop.
