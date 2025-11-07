@@ -4,7 +4,7 @@ We try to keep prerequisites to a minimum, but please run through these items be
 
 ## 1. Docker Environment
 
-Please ensure you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed and running.
+Please ensure you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) or [SUSE Rancher Desktop](https://rancherdesktop.io/) installed and running.
 This provides the Docker engine required for our exercises.
 
 To confirm successful installation, run the following command in your terminal:
