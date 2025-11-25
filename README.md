@@ -1,6 +1,6 @@
 # 📚 Daemon Labs workshop documentation hub
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/daemon-labs-resources/.github/blob/main/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 
 ## 📚 Prerequisites
 
