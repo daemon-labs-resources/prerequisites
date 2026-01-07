@@ -50,7 +50,8 @@ git --version
 ### 🪟 Windows Users
 
 > [!WARNING]
-> We require **WSL2** (Windows Subsystem for Linux) for this workshop. PowerShell alone will **not** work for the exercises.
+> We require **WSL2** (Windows Subsystem for Linux) for this workshop.  
+> PowerShell alone will **not** work for the exercises.
 
 #### 1. Install WSL2
 
@@ -60,7 +61,8 @@ Open PowerShell as Administrator and run:
 wsl --install
 ```
 
-Restart your computer if prompted. This will install the Ubuntu Linux environment.
+Restart your computer if prompted.  
+This will install the Ubuntu Linux environment.
 
 #### 2. Install Container Engine (Docker)
 
