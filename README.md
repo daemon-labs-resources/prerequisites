@@ -1,49 +1,76 @@
 # Daemon Labs - Workshop Prerequisites
 
-We try to keep prerequisites to a minimum, but please run through these items before attending any of our workshops to ensure a smooth start.
+We try to keep prerequisites to a minimum, but please run through these items before attending the workshop to ensure a smooth start.
 
-## 1. Docker Environment
+## 1. Create a GitHub Account
+If you don't already have one, please [sign up for GitHub](https://github.com/signup). You will need this to access the workshop code.
 
-Please ensure you have [Docker Desktop](https://docs.docker.com/get-started/get-docker/) or [SUSE Rancher Desktop](https://rancherdesktop.io/) installed and running.
-This provides the Docker engine required for our exercises.
+---
 
-To confirm successful installation, run the following command in your terminal:
+## 2. System Setup (Select Your OS)
 
-```shell
-docker --version
-```
+Please follow the instructions for your specific operating system below.
 
-### Windows Users: WSL2 Requirement
+### 🍎 macOS Users
+1.  **Install Command Line Tools (Git)**
+    * Open your terminal (Command+Space, type "Terminal").
+    * Run the command: `git --version`
+    * **If a pop-up appears:** Click **"Install"**. This automatically sets up Git and necessary system tools.
+        * *Note: The pop-up might open **behind** your terminal window. Move your window to check!*
+    * **If you see a version number:** You are already set.
 
-To leverage Docker's best performance on Windows, you must have [WSL2 (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install) installed and set as the default engine in Docker Desktop settings.
+2.  **Install Container Engine (Docker)**
+    * **Option A (Standard):** Download and install [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/).
+    * **Option B (License Friendly):** If you cannot use Docker Desktop due to licensing, install [Rancher Desktop](https://rancherdesktop.io/).
+        * *Important:* During setup, ensure you select **"dockerd (moby)"** as the container engine.
 
-## 2. Code Editor
+### 🪟 Windows Users
+**Important:** We require **WSL2** (Windows Subsystem for Linux) for this workshop to ensure everything runs correctly.
 
-While you can use any editor, we highly recommend using [Visual Studio Code](https://code.visualstudio.com/) due to its excellent integration capabilities.
+1.  **Install WSL2**
+    * Open PowerShell as Administrator.
+    * Run: `wsl --install`
+    * Restart your computer if prompted. This will install the Ubuntu Linux environment.
 
-### Recommended Visual Studio Code Extensions
+2.  **Install Container Engine (Docker)**
+    * **Option A (Standard):** Download [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/).
+        * In Settings > General, ensure **"Use the WSL 2 based engine"** is checked.
+        * In Settings > Resources > WSL Integration, ensure "Ubuntu" is toggled **ON**.
+    * **Option B (License Friendly):** Install [Rancher Desktop](https://rancherdesktop.io/).
+        * *Important:* During setup, select **"dockerd (moby)"** as the engine and enable **WSL** access for your Ubuntu distribution.
 
-- **Docker:** Installs quickly and provides great command and container management directly within the editor: [Visual Studio Code Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
+3.  **Verify Git**
+    * Open your **Ubuntu** terminal (search "Ubuntu" in the Start menu).
+    * Run `git --version`. (Git is usually pre-installed on WSL. If missing, run `sudo apt update && sudo apt install git`).
 
-### Windows Users: WSL Extension
+### 🐧 Linux Users
+1.  **Install Git:** Run `sudo apt install git` (or your distro equivalent).
+2.  **Install Docker:** Follow the instructions for [Docker Engine](https://docs.docker.com/engine/install/).
 
-If you are running Windows and using WSL2 (as recommended above), we also recommend installing the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension for a seamless development experience inside the Linux environment.
+---
 
-## 3. Git Client
+## 3. Code Editor
 
-For cloning and managing the workshop code repository, you will need the Git command-line tool installed.
+We recommend **Visual Studio Code** for its strong Docker integration, but **Cursor** is a fully compatible alternative.
 
-1. **Install Git:** Please install the Git client for your operating system from the official source: [Git SCM Downloads](https://git-scm.com/downloads).
+### Option A: Visual Studio Code (Recommended)
+1.  **Download & Install:** [Visual Studio Code](https://code.visualstudio.com/).
+2.  **Install Extensions:** Open VS Code, click the "Extensions" icon (square grid on the left), and install:
+    * **Docker** (by Microsoft) - *For container management.*
+    * **WSL** (by Microsoft) - *Required for Windows users to edit files inside Linux.*
 
-2. **Verify Installation:** Confirm it's installed by running:
+### Option B: Cursor (AI-Powered)
+If you prefer [Cursor](https://cursor.com/), it works perfectly for this workshop.
+* **Note:** You must still install the **Docker** and **WSL** extensions mentioned above inside Cursor.
 
-```shell
+---
+
+## 4. Final Verification (Run This!)
+
+Before the workshop starts, please open your terminal (**Windows users: use your Ubuntu terminal**) and run these commands to confirm everything is ready.
+
+You should see version numbers for both:
+
+```bash
 git --version
-```
-
-We don't mind which method you use to interact with Git, but popular options include the terminal, [GitHub Desktop](https://desktop.github.com/download/), or directly within Visual Studio Code.
-
-## 4. GitHub Account
-
-If you don't already have one, please create an account and sign in here: [GitHub Signup](https://github.com/signup).
-We will be cloning repositories from GitHub during the workshop.
+docker --version
