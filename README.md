@@ -35,7 +35,8 @@ git --version
 - **If you see a version number:** You are already set.
 
 > [!TIP]
-> The installation pop-up might open **behind** your terminal window. Move your window to check if it's hiding there!
+> The installation pop-up might open **behind** your terminal window.  
+> Move your window to check if it's hiding there!
 
 #### 2. Install Container Engine (Docker)
 
@@ -82,7 +83,8 @@ git --version
 ```
 
 > [!NOTE]
-> Git is usually pre-installed on WSL. If it is missing, run `sudo apt update && sudo apt install git`.
+> Git is usually pre-installed on WSL.  
+> If it is missing, run `sudo apt update && sudo apt install git`.
 
 ---
 
