@@ -24,22 +24,23 @@ Please follow the instructions for your specific operating system below.
 ### 🍎 macOS Users
 
 #### 1. Install Command Line Tools (Git)
+
 Open your terminal (Command+Space, type "Terminal") and run the following command:
 
 ```bash
 git --version
 ```
 
-* **If a pop-up appears:** Click **"Install"**. This automatically sets up Git and necessary system tools.
-* **If you see a version number:** You are already set.
+- **If a pop-up appears:** Click **"Install"**. This automatically sets up Git and necessary system tools.
+- **If you see a version number:** You are already set.
 
 > [!TIP]
 > The installation pop-up might open **behind** your terminal window. Move your window to check if it's hiding there!
 
 #### 2. Install Container Engine (Docker)
 
-* **Option A (Standard):** Download and install [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/).
-* **Option B (License Friendly):** If you cannot use Docker Desktop due to licensing, install [Rancher Desktop](https://rancherdesktop.io/).
+- **Option A (Standard):** Download and install [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/).
+- **Option B (License Friendly):** If you cannot use Docker Desktop due to licensing, install [Rancher Desktop](https://rancherdesktop.io/).
 
 > [!IMPORTANT]
 > If you choose **Rancher Desktop**, ensure you select **"dockerd (moby)"** as the container engine during setup.
@@ -52,6 +53,7 @@ git --version
 > We require **WSL2** (Windows Subsystem for Linux) for this workshop. PowerShell alone will **not** work for the exercises.
 
 #### 1. Install WSL2
+
 Open PowerShell as Administrator and run:
 
 ```powershell
@@ -62,14 +64,15 @@ Restart your computer if prompted. This will install the Ubuntu Linux environmen
 
 #### 2. Install Container Engine (Docker)
 
-* **Option A (Standard):** Download [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/).
-    * In Settings > General, ensure **"Use the WSL 2 based engine"** is checked.
-    * In Settings > Resources > WSL Integration, ensure "Ubuntu" is toggled **ON**.
-* **Option B (License Friendly):** Install [Rancher Desktop](https://rancherdesktop.io/).
-    * During setup, select **"dockerd (moby)"** as the engine.
-    * Enable **WSL** access for your Ubuntu distribution in the settings.
+- **Option A (Standard):** Download [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/).
+  - In Settings > General, ensure **"Use the WSL 2 based engine"** is checked.
+  - In Settings > Resources > WSL Integration, ensure "Ubuntu" is toggled **ON**.
+- **Option B (License Friendly):** Install [Rancher Desktop](https://rancherdesktop.io/).
+  - During setup, select **"dockerd (moby)"** as the engine.
+  - Enable **WSL** access for your Ubuntu distribution in the settings.
 
 #### 3. Verify Git
+
 Open your **Ubuntu** terminal (search "Ubuntu" in the Start menu) and run:
 
 ```bash
@@ -84,6 +87,7 @@ git --version
 ### 🐧 Linux Users
 
 #### 1. Install Git
+
 Run the following command (or your distro equivalent):
 
 ```bash
@@ -91,6 +95,7 @@ sudo apt install git
 ```
 
 #### 2. Install Docker
+
 Follow the official instructions for [Docker Engine](https://docs.docker.com/engine/install/).
 
 ---
@@ -102,12 +107,14 @@ Follow the official instructions for [Docker Engine](https://docs.docker.com/eng
 We recommend **Visual Studio Code** for its strong Docker integration, but **Cursor** is a fully compatible alternative.
 
 ### Option A: Visual Studio Code (Recommended)
+
 1.  **Download & Install:** [Visual Studio Code](https://code.visualstudio.com/).
 2.  **Install Extensions:** Open VS Code, click the "Extensions" icon (square grid on the left), and install:
-    * **Docker** (by Microsoft) - *For container management.*
-    * **WSL** (by Microsoft) - *Required for Windows users to edit files inside Linux.*
+    - **Docker** (by Microsoft) - _For container management._
+    - **WSL** (by Microsoft) - _Required for Windows users to edit files inside Linux._
 
 ### Option B: Cursor (AI-Powered)
+
 If you prefer [Cursor](https://cursor.com/), it works perfectly for this workshop.
 
 > [!IMPORTANT]
