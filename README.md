@@ -114,8 +114,8 @@ We recommend **Visual Studio Code** for its strong Docker integration, but **Cur
 
 1. **Download & Install:** [Visual Studio Code](https://code.visualstudio.com/).
 2. **Install Extensions:** Open Visual Studio Code, click the "Extensions" icon (square grid on the left), and install:
-    - **Docker** (by Microsoft) - _For container management._
-    - **WSL** (by Microsoft) - _Required for Windows users to edit files inside Linux._
+   - **Docker** (by Microsoft) - _For container management._
+   - **WSL** (by Microsoft) - _Required for Windows users to edit files inside Linux._
 
 ### Option B: Cursor (AI-Powered)
 
