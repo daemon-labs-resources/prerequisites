@@ -23,7 +23,7 @@ Please follow the instructions for your specific operating system below.
 
 ### 🍎 macOS Users
 
-#### 1. Install Command Line Tools (Git)
+#### 1. Install Command-Line Tools (Git)
 
 Open your terminal (Command+Space, type "Terminal") and run the following command:
 
@@ -38,7 +38,7 @@ git --version
 > The installation pop-up might open **behind** your terminal window.  
 > Move your window to check if it's hiding there!
 
-#### 2. Install Container Engine (Docker)
+#### 2. Install Container Engine (Docker) for Mac
 
 - **Option A (Standard):** Download and install [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/).
 - **Option B (License Friendly):** If you cannot use Docker Desktop due to licensing, install [Rancher Desktop](https://rancherdesktop.io/).
@@ -65,7 +65,7 @@ wsl --install
 Restart your computer if prompted.  
 This will install the Ubuntu Linux environment.
 
-#### 2. Install Container Engine (Docker)
+#### 2. Install Container Engine (Docker) for Windows
 
 - **Option A (Standard):** Download [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/).
   - In Settings > General, ensure **"Use the WSL 2 based engine"** is checked.
@@ -112,8 +112,8 @@ We recommend **Visual Studio Code** for its strong Docker integration, but **Cur
 
 ### Option A: Visual Studio Code (Recommended)
 
-1.  **Download & Install:** [Visual Studio Code](https://code.visualstudio.com/).
-2.  **Install Extensions:** Open VS Code, click the "Extensions" icon (square grid on the left), and install:
+1. **Download & Install:** [Visual Studio Code](https://code.visualstudio.com/).
+2. **Install Extensions:** Open Visual Studio Code, click the "Extensions" icon (square grid on the left), and install:
     - **Docker** (by Microsoft) - _For container management._
     - **WSL** (by Microsoft) - _Required for Windows users to edit files inside Linux._
 
@@ -146,6 +146,6 @@ You should see version numbers for both commands.
 
 ---
 
-## 🎉 Ready to go!
+## 🎉 Ready to go
 
 Your environment is now prepared for the workshop. See you there!
